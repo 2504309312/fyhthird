@@ -21,7 +21,7 @@ import java.util.List;
 public class ScRecyclerAdapter  extends RecyclerView.Adapter<ScRecyclerAdapter.ViewHolder>{
     private List<StudentBean> mStudentBeans;
     private Context mContext;
-
+    //新加一行代码哈哈啊哈哈哈哈哈哈
     public ScRecyclerAdapter(List<StudentBean> studentBeans, Context context) {
         mStudentBeans = studentBeans;
         mContext = context;
