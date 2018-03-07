@@ -26,7 +26,7 @@ public class ScRecyclerAdapter  extends RecyclerView.Adapter<ScRecyclerAdapter.V
         mStudentBeans = studentBeans;
         mContext = context;
     }
-
+    //新家第二行
     @Override
     public ScRecyclerAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
