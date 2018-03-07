@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.day04.activity.ListActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/btn_lb"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="列表"
+            android:gravity="center"
+            android:button="@null"
+            android:checked="true"
+            android:background="@drawable/shape"
+            android:layout_margin="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/btn_sc"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="收藏"
+            android:gravity="center"
+            android:button="@null"
+            android:background="@drawable/shape"
+            android:checked="false"
+            android:layout_margin="10dp"
+            />
+    </RadioGroup>
+</LinearLayout>
